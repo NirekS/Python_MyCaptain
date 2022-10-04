@@ -6,5 +6,14 @@ print("Area:",Area)
 
 #Task2
 
-name = string(input("Enter Name:"))
-print("Name: ",Name)
+Name=str(input("Input the File Name:"))
+sep = Name.split(".")
+extn = sep[-1]
+if(extn == "py")==True:
+    print("Python")
+    
+if(extn == "java")==True:
+    print("JavaScript")
+    
+if(extn == "c")==True:
+    print("C language")
