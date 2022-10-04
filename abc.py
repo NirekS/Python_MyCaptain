@@ -10,10 +10,10 @@ Name=str(input("Input the File Name:"))
 sep = Name.split(".")
 extn = sep[-1]
 if(extn == "py")==True:
-    print("Python")
+    print("The extension of the file is :Python")
     
 if(extn == "java")==True:
-    print("JavaScript")
+    print("The extension of the file is :JavaScript")
     
 if(extn == "c")==True:
-    print("C language")
+    print("The extension of the file is :C")
